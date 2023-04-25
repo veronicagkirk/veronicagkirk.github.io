@@ -1,0 +1,115 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: navy;
+    font-size: 32pt;
+    font-family: Optima, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-size: 18pt;
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: slateblue;
+    font-size: 18pt;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 16.5pt;
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+
+/**below is the code for the navigation bar**/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+.nav-bar {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-size: medium;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.nav-bar li { 
+    display: inline-block;
+    width: 15%;
+    min-width: 120px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background: cornflowerblue;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+/*hover element-changes the background color when mouse hovers over it*/
+.nav-bar li:hover {
+    background: navy;
+}
+
+/*shadow when clicking on box*/
+li a:active {
+    box-shadow: 10px 5px 5px purple;
+}
+
+.homepagepic {
+    background-image: url(/images/flowers.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#pennypic {
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#veronicapic {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
